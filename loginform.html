@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="loginfr.css"
+  <style> 
+  @font-face {
+  src: url(/worksans-regar.ttf);
+  font-family: worksans;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: worksans;
+    color: #eeecff;
+  }
+  body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(/imagesp.jpeg);
+    background-size: cover;
+    background-position: center;
+    
+  }
+  form {
+    width: 320px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 50px, 0;
+    border-radius: 15px;
+    border: 2px solid #ffff00;
+    backdrop-filter: (5px);
+  }
+  input {
+    width: 250px;
+    height: 40px;
+    border: 1px solid #0000ff;
+    outline: none;
+    transition: all 100ms ease;
+    font-size: 1.1rem;
+   background: transparent;
+   padding: 0 20px;
+  }
+  input[type="text"] {
+    border: 1px solid #000000;
+    background: blanchedalmond;
+    color: black;
+  }
+    
+    input[type="text"]:focus {
+    border: 4px solid #6f00ff;}
+    
+  input[type="submit"] {
+    background: salmon;
+    text-transform: uppercase;
+    font-family: 300;
+    
+  }
+  .titel {
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    font-weight: 900;
+    color: salmon;
+    
+  }
+  h3{
+    border: 2px solid #00ffff;
+    
+    margin-bottom: 50px;
+    padding: 0 5px;
+   transition: all 100ms ease;
+  }
+  </style>
+</head>
+
+<body>
+<form action="#">
+  <h3 class="name"> From of Saiyed</h3>
+  <h2 class="title"> Log in </h2>
+  <input type="text" placeholder="username">
+    <input type="text" placeholder="password">
+      <input type="submit" value="Login">
+</body>
+
+</html>
